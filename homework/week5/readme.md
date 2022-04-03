@@ -5,7 +5,9 @@
 
 #hw1: 대소문자 상호 변환하기
 -----
-
+* string1.upper() // string2.lower() // string3.swapcase()   
+* __<built-in method isupper of str object at 0x000002F84EC0A8F0>__   
+upper가 아닌 upper()로 사용해야 함!!  
 
 #hw2: 문자열에서 문자의 발생 빈도 세기
 ----
@@ -32,8 +34,27 @@ list2 = [ ] + list1 #연산
 ss += 추가할 문자 
 이용하면 편함  
 
+* 문자열 목록을 정수로 변환  
+int_list = list(map(int, string_list))  
+
 #hw5: 날짜 세기 및 요일 구하기
 ---
 
 #hw6: 재귀호출로 진수 구하기
 ---
+* 10진수 -> 다른 진수로 변환  
+> bin(42)  
+'0b101010'  
+> oct(42)  
+'0o52'  
+> hex(42)  
+'0x2a'  
+
+* 재귀함수로 2진수 변환   
+```python
+def base2(num):
+    if(num>1):
+        base2(num//2)
+    print(num%2, end=' ')
+```   
+
