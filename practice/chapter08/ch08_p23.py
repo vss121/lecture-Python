@@ -1,0 +1,7 @@
+#문자열 구성 파악하기 : isdigit(), isalpha(), isalnum(), islower(), isupper(), isspace() 
+'1234'.isdigit()
+'abcd'.isalpha()
+'abc123'.isalnum()
+'abcd'.islower()
+'ABCD'.isupper()
+'  '.isspace()
