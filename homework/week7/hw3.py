@@ -1,6 +1,6 @@
 from tkinter import *
 from tkinter import ttk
-#2021039010 김예경
+
 window = Tk()
 window.iconbitmap('python.ico') #파이썬 아이콘
 

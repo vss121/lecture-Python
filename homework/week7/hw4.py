@@ -1,7 +1,7 @@
 from tkinter import *
 from tkinter.filedialog import *
 
-#2021039010 김예경
+
 def func_open():
     global filename
     filename = askopenfilename(parent = window, filetypes = (("GIF파일", "*.gif"),

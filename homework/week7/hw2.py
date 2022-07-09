@@ -1,7 +1,7 @@
 from tkinter import *
 from tkinter.colorchooser import *
 from tkinter.simpledialog import *
-#2021039010 김예경
+
 def mouseClick(event):
   global x1, y1, x2, y2
   x1 = event.x

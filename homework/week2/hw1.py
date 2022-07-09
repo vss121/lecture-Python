@@ -1,7 +1,7 @@
 import turtle
 import random
 
-#2021039010 김예경
+
 
 #마우스 우클릭시 실행하는 함수
 def screenRightClick(x,y):

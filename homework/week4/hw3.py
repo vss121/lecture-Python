@@ -1,4 +1,4 @@
-# 2021039010 김예경
+
 # 거북이 리스트 활용(정렬)
 import turtle
 import random

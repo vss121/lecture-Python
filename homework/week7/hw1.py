@@ -1,5 +1,5 @@
 from tkinter import *
-#2021039010 김예경
+
 #버튼 클릭 시
 def myFunc():
   if var.get() == 1:
